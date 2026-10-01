@@ -1,0 +1,29 @@
+# Model weights (re-download locally)
+Wan2.1/Wan2.1-*/
+Video-Depth-Anything/checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Generated outputs and run logs
+Wan2.1/outputs/
+Video-Depth-Anything/outputs/
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Incomplete downloads
+*.part
+*.incomplete
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
