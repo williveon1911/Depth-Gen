@@ -79,7 +79,6 @@ It then creates a side-by-side RGB/depth preview and writes a `manifest.json` co
 ```text
 Depth-Gen/
 ├── depthgen_pipeline.py       # Main orchestration script
-├── novaflow_video.py          # Image-to-video wrapper used by the I2V path
 ├── Wan2.1/                    # Wan2.1 source tree and model checkpoints
 ├── Video-Depth-Anything/      # VDA source tree and checkpoints
 └── README.md
@@ -223,6 +222,15 @@ runs/example/
 ├── side_by_side.log           # FFmpeg packaging log
 └── vda/                       # Native VDA output directory
 ```
+
+
+https://github.com/user-attachments/assets/3a21e395-1036-428a-af5c-21a6caf27783
+
+
+
+https://github.com/user-attachments/assets/ad6e6265-5743-4780-b28e-967dc0c6945e
+
+
 
 The `manifest.json` is intended to make each generated sample traceable. It records the prompt, seed, generation parameters, VDA parameters, artifact paths, executed commands, timestamps, duration, and failure information when applicable.
 
